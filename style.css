@@ -80,11 +80,10 @@ body{
     box-shadow:0px 5px 5px #888888;
 }
 .img_居中{
-    width:100%;
+    width:50%;
     padding:20px;
     height:auto;
     transition-duration:1.0s;
-    
 }
 .img_居中 p{
     color:white;
@@ -169,6 +168,20 @@ table
     table{
     padding-left: 0px;
     padding-right: 0px;
+    }
+
+    .img_居中{
+        width:100%;
+        padding:20px;
+        height:auto;
+        transition-duration:1.0s;
+    }
+    .img_居中 p{
+        color:white;
+    }
+    .img_居中:hover{
+        box-shadow:0px 5px 5px #888888;
+        background-color:#f1f1f1;
     }
 }
 /*手风琴菜单*/
